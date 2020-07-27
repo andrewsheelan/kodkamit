@@ -1,3 +1,13 @@
+# Creating Pull Requests
+
+- Always create pull requests against master
+- Add title as well as description
+- Merging Pull requests triggers code build
+
+![GitHub Pull request](GithubPullRequest.png)
+
+![Code commit Pull request](CodecommitPullRequest.png)
+
 # Working With Branches
 - Checkout the working branch
 ```bash
