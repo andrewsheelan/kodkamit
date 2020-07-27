@@ -20,7 +20,7 @@ git commit -m "Add simple commit message"
 git push --set-upstream origin development
 ```
 
-![Git Workflow](master/gitflow.png)
+![Git Workflow](gitflow.png)
 
 # The seven rules of a great Git commit message
 Keep in mind: This has all been said before.
