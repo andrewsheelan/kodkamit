@@ -8,7 +8,7 @@ git pull origin development
 - Sync / Merge from master (or) parent Branch
 ```bash
 git pull origin master
-git merge origin/master
+git merge origin/master -m "Merge changes from master"
 git push origin development
 ```
 
