@@ -1,6 +1,27 @@
+# Working on Branches
+- Checkout the working branch
+```bash
+git checkout development
+git pull origin development
+```
+
+- Sync / Merge from master (or) parent Branch
+```bash
+git pull origin master
+git merge origin/master
+git push origin development
+```
+
+- Make Changes
+
+```bash
+git add . (or specify <filename>)
+git commit -m "Add simple commit message"
+git push --set-upstream origin development
+```
+
 # The seven rules of a great Git commit message
 Keep in mind: This has all been said before.
-
 
 - Separate subject from body with a blank line
 - Limit the subject line to 50 characters
