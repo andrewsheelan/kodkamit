@@ -1,4 +1,4 @@
-# Working on Branches
+# Working With Branches
 - Checkout the working branch
 ```bash
 git checkout development
@@ -19,6 +19,8 @@ git add . (or specify <filename>)
 git commit -m "Add simple commit message"
 git push --set-upstream origin development
 ```
+
+![Git Workflow](master/gitflow.png)
 
 # The seven rules of a great Git commit message
 Keep in mind: This has all been said before.
